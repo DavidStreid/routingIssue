@@ -2,13 +2,13 @@
 	<h2>All Greetings</h2>
 	<div class="wrapper">
 		<div class="row">
-			<div *ngFor="let greeting of greetings" 
+			<a *ngFor="let greeting of greetings" 
 				class="col-xs-12 col-md-6 col-lg-4">
-				<div class="paddingDiv"
+				<a class="paddingDiv"
 					(click)="onSelect(greeting)">
 						  	<h3 class="greetingType">{{greeting.title}}</h3> 	
-				</div>
-			</div>
+				</a>
+			</a>
 		</div>
 	</div>
 </div>
