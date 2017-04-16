@@ -2,7 +2,7 @@ import {Component} from '@angular/core';
 
 @Component({
 	selector: 'hi',
-	templateUrl: './hi.component.html'
+	template: '<h4>hi</h4>'
 })
 
 export class HiComponent {} 

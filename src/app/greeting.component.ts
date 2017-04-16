@@ -4,7 +4,7 @@ import {GREETINGS} from './greetings';
 @Component({
 	selector: 'greeting',
 	templateUrl: './greeting.component.html',
-	styleUrls: ['./allGreetings.component.css']
+	styleUrls: ['./style.css']
 })
 
 export class GreetingComponent implements OnInit {
