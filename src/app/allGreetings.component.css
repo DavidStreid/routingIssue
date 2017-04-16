@@ -1,23 +1,15 @@
-h1, p, h2 {
+p, h2 {
   font-family: Futura;
-  color: #000000; 
+  color: grey; 
 } 
 
-h1 {
-  margin-top: 2%;
-  vertical-align: middle;
-  font-size: 36px;
-  font-weight: bold;
-  line-height: 64px;
-  text-align: center;
-  font-style: italic;
-}
 h2 {
   font-size: 30px; 
   display: block;
-  font-family: futura;
   font-weight: bold;
-}
+  text-align: center;
+  margin: 20px;
+} 
 
 p {
   font-size: 16px;
@@ -30,37 +22,26 @@ p {
   margin: auto; 
 }
 
-.postTitle {
-  text-align: center;
-  margin: 20px;
-  color: #039be5; 
-  font-size: 30px; 
-  display: block;
-  font-family: futura;
-  font-weight: bold;
-}
-
 /*Changed from .row .col b/c of odd transition between .col-xs & .col-sm*/
 .row .col-xs-12, .row .col-md-6, .row .col-lg-4 {
   cursor: pointer;
-  height: 250px;
   padding: 2.5px 3px;
 }
 
 .paddingDiv {
   border-radius: 25px;
-  border: 5px solid #cce2ff;
+  border: 5px solid black;
   height: 100%;
 }
 
 .row .paddingDiv:hover {
-  background-color: #1a7dff;
+  background-color: grey;
   margin: 0px;
 }
 
 .row .paddingDiv:hover .title
 {
-  color: #ffffff; 
+  color: black; 
 }
 
 .row .title {
@@ -68,5 +49,5 @@ p {
   text-align: center;
   margin: 20px 15px 15px 15px;
   font-weight: bold;
-  color: #039be5; 
+  color: grey; 
 }  
