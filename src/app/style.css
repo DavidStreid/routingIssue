@@ -15,6 +15,11 @@ h1, h2, h3, p {
   height: 100%;
 }
 
+.paddingDiv:focus {
+  outline: 0;
+  background-color: black;
+}
+
 .row .paddingDiv:hover {
   background-color: grey;
   margin: 0px;
