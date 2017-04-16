@@ -1,0 +1,118 @@
+h1, p, h2 {
+  font-family: Futura;
+  color: #000000; 
+} 
+
+h1 {
+  margin-top: 2%;
+  vertical-align: middle;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 64px;
+  text-align: center;
+  font-style: italic;
+}
+h2 {
+  font-size: 30px; 
+  display: block;
+  font-family: futura;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 28px;
+  margin: 24px 0 24px; }
+
+.col-md-12 {
+  padding: 10px; }
+
+.right {
+  text-align: right; }
+
+.wrapper {
+  width: 90%;
+  margin: auto; 
+}
+
+.helix {
+  display: block;
+  margin: 10% auto 5%;
+  width: 200px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .helix {
+    margin: 15% auto 15%;
+    width: 40%;
+  }
+}
+
+.postTitle {
+  text-align: center;
+  margin: 20px;
+  color: #039be5; 
+  font-size: 30px; 
+  display: block;
+  font-family: futura;
+  font-weight: bold;
+}
+
+/*Changed from .row .col b/c of odd transition between .col-xs & .col-sm*/
+.row .col-xs-12, .row .col-md-6, .row .col-lg-4 {
+  cursor: pointer;
+  height: 250px;
+  padding: 2.5px 3px;
+}
+
+.paddingDiv {
+  border-radius: 25px;
+  border: 5px solid #cce2ff;
+  height: 100%;
+}
+
+.row .paddingDiv:hover, .row .paddingDiv:hover, .row .paddingDiv:hover {
+  background-color: #1a7dff;
+  margin: 0px;
+}
+
+.row .paddingDiv:hover .description, 
+.row .paddingDiv:hover .title, 
+.row .paddingDiv:hover .date, 
+.row .paddingDiv:hover .description, 
+.row .paddingDiv:hover .title, 
+.row .paddingDiv:hover .date, 
+.row .paddingDiv:hover .description,
+.row .paddingDiv:hover .title,
+.row .paddingDiv:hover .date {
+  color: #ffffff; }
+
+.row .description {
+  position: relative;
+  text-align: left;
+  margin: 15px 15px 0px 15px;
+  font-size: 16px;
+  color: #039be5; }
+
+.row .title {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 15px 15px 15px;
+  font-weight: bold;
+  color: #039be5; }
+  @media screen and (min-width: 800px) {
+    .menuBoxesTitle, .row .title {
+      font-size: 25px; } }
+
+.row .date {
+  text-align: right;
+  color: #039be5;
+  margin: 0px 15px 20px 15px; }
+  
+@media screen and (min-width: 1000px) {
+  .bodyText {
+    width: 800px;
+    display: block;
+    margin: auto;
+  }
+}

@@ -1,0 +1,14 @@
+<div class="container">
+	<h2 class="postTitle">All Greetings</h2>
+	<div class="wrapper">
+		<div class="row">
+			<div *ngFor="let greeting of greetings" 
+				class="col-xs-12 col-md-6 col-lg-4">
+				<div class="paddingDiv"
+					[routerLink]="greeting.routerLink">
+						  	<p class="title">{{greeting.title}}</p> 	
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
