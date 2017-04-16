@@ -25,9 +25,6 @@ p {
   margin: 24px 0 24px; 
 }
 
-.right {
-  text-align: right; }
-
 .wrapper {
   width: 90%;
   margin: auto; 
@@ -56,48 +53,20 @@ p {
   height: 100%;
 }
 
-.row .paddingDiv:hover, .row .paddingDiv:hover, .row .paddingDiv:hover {
+.row .paddingDiv:hover {
   background-color: #1a7dff;
   margin: 0px;
 }
 
-.row .paddingDiv:hover .description, 
-.row .paddingDiv:hover .title, 
-.row .paddingDiv:hover .date, 
-.row .paddingDiv:hover .description, 
-.row .paddingDiv:hover .title, 
-.row .paddingDiv:hover .date, 
-.row .paddingDiv:hover .description,
-.row .paddingDiv:hover .title,
-.row .paddingDiv:hover .date {
-  color: #ffffff; }
-
-.row .description {
-  position: relative;
-  text-align: left;
-  margin: 15px 15px 0px 15px;
-  font-size: 16px;
-  color: #039be5; }
+.row .paddingDiv:hover .title
+{
+  color: #ffffff; 
+}
 
 .row .title {
   font-size: 20px;
   text-align: center;
   margin: 20px 15px 15px 15px;
   font-weight: bold;
-  color: #039be5; }
-  @media screen and (min-width: 800px) {
-    .menuBoxesTitle, .row .title {
-      font-size: 25px; } }
-
-.row .date {
-  text-align: right;
-  color: #039be5;
-  margin: 0px 15px 20px 15px; }
-  
-@media screen and (min-width: 1000px) {
-  .bodyText {
-    width: 800px;
-    display: block;
-    margin: auto;
-  }
-}
+  color: #039be5; 
+}  
