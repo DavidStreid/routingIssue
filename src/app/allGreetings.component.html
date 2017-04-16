@@ -5,7 +5,7 @@
 			<div *ngFor="let greeting of greetings" 
 				class="col-xs-12 col-md-6 col-lg-4">
 				<div class="paddingDiv"
-					[routerLink]="greeting.routerLink">
+					(click)="onSelect(greeting)">
 						  	<h3 class="greetingType">{{greeting.title}}</h3> 	
 				</div>
 			</div>
