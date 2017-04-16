@@ -1,26 +1,7 @@
-p, h2 {
-  font-family: Futura;
+h1, h2, h3, p {
+  font-family: futura;
   color: grey; 
 } 
-
-h2 {
-  font-size: 30px; 
-  display: block;
-  font-weight: bold;
-  text-align: center;
-  margin: 20px;
-} 
-
-p {
-  font-size: 16px;
-  line-height: 28px;
-  margin: 24px 0 24px; 
-}
-
-.wrapper {
-  width: 90%;
-  margin: auto; 
-}
 
 /*Changed from .row .col b/c of odd transition between .col-xs & .col-sm*/
 .row .col-xs-12, .row .col-md-6, .row .col-lg-4 {
@@ -43,11 +24,3 @@ p {
 {
   color: black; 
 }
-
-.row .title {
-  font-size: 20px;
-  text-align: center;
-  margin: 20px 15px 15px 15px;
-  font-weight: bold;
-  color: grey; 
-}  
