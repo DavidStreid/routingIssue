@@ -12,11 +12,6 @@ const greetingRoutes: Routes = [
     component: GreetingComponent,
     children: [
           {
-            path: '',
-            redirectTo: '/allGreetings',
-            pathMatch: 'full'
-          }, 
-          {
             path: 'all',
             component: AllGreetingsComponent
           },

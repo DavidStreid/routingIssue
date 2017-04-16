@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {GREETINGS} from './greetings';
 
 @Component({
-	selector: 'allGreetings',
+	selector: 'all-greetings',
 	templateUrl: './allGreetings.component.html',
 	styleUrls: ['./allGreetings.component.css']
 })
